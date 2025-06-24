@@ -19,11 +19,11 @@ void tileRendController(int xPos, int yPos) // Контроллер которы
         {
             if (Field[yPos][xPos].mine)
             {
-                tileRend(xPos, yPos, 0.7f, 2.0f, 2.0f, true);
+                tileRend(xPos, yPos, 0.7f, 0.2f, 0.2f, true);
             }
             else
             {
-                tileRend(xPos, yPos, 0.7f, 2.0f, 2.0f, false);
+                tileRend(xPos, yPos, 0.7f, 0.2f, 0.2f, false);
                 numberColorController(xPos, yPos);
             }
         }

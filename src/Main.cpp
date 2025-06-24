@@ -1,4 +1,3 @@
-#include <iostream>
 #include "../lib/glfw3.h"
 #include "ErrorManager.cpp"
 #include "Game.cpp"
