@@ -26,7 +26,7 @@ void errorReturn(int id) { // Функция использует внешний
             system("cscript error.vbs \"0x0002 - Window not created\"");
             break;
         default: // Если ошибка иная вывод что она неизвестная
-            string errorCMD = "cscript error.vbs \"";
+            std::string errorCMD = "cscript error.vbs \"";
             errorCMD += intToHexString(id);
             errorCMD += " - Unknown error\"";
             system(errorCMD.c_str());
