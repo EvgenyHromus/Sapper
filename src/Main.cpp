@@ -1,6 +1,8 @@
 #include <iostream>
 #include "../lib/glfw3.h"
 #include "ErrorManager.cpp"
+#include "Game.cpp"
+#include "Graphics.cpp"
 using namespace std;
 
 int main() {
