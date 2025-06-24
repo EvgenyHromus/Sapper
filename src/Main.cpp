@@ -11,7 +11,7 @@ int main()
     {
         ErrorSet 0x0001 CallError
     } // Вернуть ошибку 1 если glfw не инициализирован
-    GLFWwindow *window = glfwCreateWindow(700, 700, "Hello GLFW", NULL, NULL); // Создание окна glfw
+    GLFWwindow *window = glfwCreateWindow(700, 700, "Sapper", NULL, NULL); // Создание окна glfw
     if (!window)
     {
         glfwTerminate();
